@@ -25,12 +25,20 @@ body{
     background-color: black;
     margin-top: 2rem;
     padding: 2rem;
-    gap: .2rem;
+    gap: .5rem;
     border-radius: .5rem;
 
     & div:nth-child(1){
-        grid-column: -1/1;
-        grid-row: span 2;
+        grid-column: span 3;
+        padding: .5rem 1rem 1rem;
+
+        & h1{
+            text-align: right;
+        }
+
+        & h3{
+            text-align: right;
+        }
     }
 
     & div{
